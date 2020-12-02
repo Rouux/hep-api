@@ -4,7 +4,7 @@
 	"description": "Heroku (hosting) | ExpressJs | Progresql - API",
 	"main": "index.js",
 	"scripts": {
-		"start": "nodemon src/index.js",
+		"start": "nodemon index.js",
 		"prettier": "prettier src -w",
 		"prettier:preview": "prettier src",
 		"lint": "eslint --color src",
