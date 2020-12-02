@@ -5,7 +5,10 @@
 	"main": "index.js",
 	"scripts": {
 		"start": "nodemon src/index.js",
-		"prettier": "prettier src"
+		"prettier": "prettier src -w",
+		"prettier:preview": "prettier src",
+		"lint": "eslint --color src",
+		"lint:fix": "eslint --color --fix src"
 	},
 	"repository": {
 		"type": "git",
@@ -25,6 +28,9 @@
 		"prettier": "^2.2.1"
 	},
 	"devDependencies": {
+		"eslint": "^7.14.0",
+		"eslint-config-prettier": "^6.15.0",
+		"eslint-plugin-prettier": "^3.1.4",
 		"nodemon": "^2.0.6"
 	}
 }
