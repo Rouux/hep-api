@@ -2,7 +2,7 @@
 /* eslint-disable no-fallthrough */
 /* eslint-disable no-console */
 const app = require('./src/api');
-const debug = require('debug')('back-end:server');
+const debug = require('debug')('api');
 const http = require('http');
 
 const port = normalizePort(process.env.PORT || '3000');
