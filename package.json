@@ -8,7 +8,8 @@
 		"prettier": "prettier src -w",
 		"prettier:preview": "prettier src",
 		"lint": "eslint --color src",
-		"lint:fix": "eslint --color --fix src"
+    "lint:fix": "eslint --color --fix src",
+    "deploy" : "./scripts/deploy.sh"
 	},
 	"repository": {
 		"type": "git",
