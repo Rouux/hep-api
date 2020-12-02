@@ -10,9 +10,6 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 
-// Start the app by listening on the default Heroku port
-app.listen(process.env.PORT || 3000);
-
 // route our app
 app.get('/', function (_, res) {
 	res.send('hello world!');
@@ -21,3 +18,5 @@ app.get('/', function (_, res) {
 app.post('/', function (req, res) {
 	res.send(req.body);
 });
+
+module.export = app;
