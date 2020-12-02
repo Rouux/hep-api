@@ -6,6 +6,8 @@ while true; do
   [Yy]*)
     git checkout main
     git rebase
+    git merge develop
+    git push origin main
     git push heroku main
     git checkout -
     # git push origin develop:main
