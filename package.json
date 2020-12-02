@@ -1,0 +1,29 @@
+{
+	"name": "express-postgresql-api",
+	"version": "1.0.0",
+	"description": "Heroku (hosting) | ExpressJs | Progresql - API",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon src/index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Rouux/hep-api.git"
+	},
+	"keywords": [],
+	"author": "Roux",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Rouux/hep-api/issues"
+	},
+	"homepage": "https://github.com/Rouux/hep-api#readme",
+	"dependencies": {
+		"cookie-parser": "^1.4.5",
+		"express": "^4.17.1",
+		"morgan": "^1.10.0"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.6"
+	}
+}
